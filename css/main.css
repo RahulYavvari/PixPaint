@@ -1,0 +1,85 @@
+body {
+    background: #222222;
+    color: #ffffff;
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-container {
+    max-width: 1080px;
+    margin: 2rem auto;
+    padding: 0.5rem 3rem 2rem 3rem;
+    background-color: #565656;
+    border-radius: 20px;
+}
+
+.flex-container {
+    display: flex;
+    gap: 2rem;
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    font-size: 1.3rem;
+    margin-left: 3rem;
+}
+
+.controls button {
+    width: 10rem;
+    padding: 0.7rem 1.5rem;
+    font-size: 1.2rem;
+    border-radius: 40px;
+    border-style: none;
+    background-color: #8fa0ff;
+    cursor: pointer;
+}
+
+.controls button:hover {
+    background-color: #6779e0;
+}
+
+.about-container h3{
+    color: #e5e5e5;
+}
+
+.about-container code {
+    font-size: 1rem;
+}
+
+#heading {
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: 5rem;
+    color: rgb(0, 0, 0);
+    background-color: rgb(195, 195, 195);
+    border-radius: 20px;
+}
+
+#canvas {
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+#guide {
+    display: grid;
+    pointer-events: none;
+    position: absolute;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+
+#guide div {
+    border: 1px solid rgba(0,0,0,0.1);
+}
+
+footer {
+    text-align: center;
+    font-size: 1rem;
+    font-style: monospace;
+    padding: 1rem 0;
+    background-color: #111111;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>PixPaint</title>
+</head>
+
+<body>
+
+    <div class="main-container">
+
+        <h1 id="heading">PixPaint</h1>
+
+        <div class="flex-container">
+            <div>
+                <div id="guide"></div>
+                <canvas width="600" height="500" id="canvas"></canvas>
+            </div>
+            <div class="controls">
+                
+                <div>
+                    <label for="colorInput">Set Color: </label>
+                    <input type="color" id="colorInput">
+                </div>
+
+                <div>
+                    <label for="toggleGuide">Show Guides: </label>
+                    <input type="checkbox" id="toggleGuide" checked>
+                </div>
+
+                <div>
+                    <button type="button" id="clearButton">Clear</button>
+                </div>
+
+                <div class="about-container">
+                    <h3>What is PixPaint?</h3>
+                    <p>PixPaint is a digital pixelized canvas where you can unleash your pixel art skill and make your
+                        thoughts come real in pixels.</p>
+                    <code>[ctrl + click] : To pick color within the canvas</code>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        Copyright &copy; <span></span>. Rahul Yavvari
+    </footer>
+    <script>
+        const currYear = document.querySelector("footer span");
+        currYear.innerText = new Date().getFullYear();
+    </script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

@@ -56,8 +56,10 @@ body {
     text-align: center;
     font-size: 5rem;
     color: rgb(0, 0, 0);
-    background-color: rgb(195, 195, 195);
     border-radius: 20px;
+
+    background: #5C00AD;
+    background: linear-gradient(to right, #a53fff 0%, #680080 100%);
 }
 
 #canvas {
